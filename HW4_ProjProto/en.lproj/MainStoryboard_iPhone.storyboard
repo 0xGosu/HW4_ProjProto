@@ -1071,12 +1071,14 @@ AQABAAEAAQAB//+dkAEA//+PgAAE//+dkAEI//+dkAEMUERUAFBTVABQV1QAUFBUAAAAAAEAAAABA
         <class className="BalanceVC" superclassName="UIViewController">
             <source key="sourceIdentifier" type="project" relativePath="./Classes/BalanceVC.h"/>
             <relationships>
+                <relationship kind="action" name="newFlowAction:" candidateClass="UIButton"/>
                 <relationship kind="outlet" name="balanceBar" candidateClass="UIProgressView"/>
             </relationships>
         </class>
         <class className="CapturePhotoVC" superclassName="UIViewController">
             <source key="sourceIdentifier" type="project" relativePath="./Classes/CapturePhotoVC.h"/>
             <relationships>
+                <relationship kind="action" name="choosePictureFromPhotoAlbumPressed:" candidateClass="UIButton"/>
                 <relationship kind="action" name="takePicturePressed:" candidateClass="UIButton"/>
                 <relationship kind="outlet" name="photoPickerController" candidateClass="UIImagePickerController"/>
                 <relationship kind="outlet" name="photoView" candidateClass="UIImageView"/>
@@ -1124,7 +1126,6 @@ AQABAAEAAQAB//+dkAEA//+PgAAE//+dkAEI//+dkAEMUERUAFBTVABQV1QAUFBUAAAAAAEAAAABA
         <class className="NewSourceVC" superclassName="UIViewController">
             <source key="sourceIdentifier" type="project" relativePath="./Classes/NewSourceVC.h"/>
             <relationships>
-                <relationship kind="action" name="newSourcePressed:" candidateClass="UIBarButtonItem"/>
                 <relationship kind="outlet" name="iconCollectionView" candidateClass="UICollectionView"/>
                 <relationship kind="outlet" name="pageControl" candidateClass="UIPageControl"/>
                 <relationship kind="outlet" name="sourceTitle" candidateClass="UITextField"/>
