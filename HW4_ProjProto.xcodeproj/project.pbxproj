@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B111D85216EDCCD600E4655C /* CapturePhotoVC.m in Sources */ = {isa = PBXBuildFile; fileRef = B111D85116EDCCD600E4655C /* CapturePhotoVC.m */; };
 		B19C401416E795BB00C7D1AF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B19C401316E795BB00C7D1AF /* UIKit.framework */; };
 		B19C401616E795BB00C7D1AF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B19C401516E795BB00C7D1AF /* Foundation.framework */; };
 		B19C401816E795BB00C7D1AF /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B19C401716E795BB00C7D1AF /* CoreGraphics.framework */; };
@@ -18,15 +19,25 @@
 		B19C402A16E795BB00C7D1AF /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B19C402916E795BB00C7D1AF /* Default-568h@2x.png */; };
 		B19C402D16E795BB00C7D1AF /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B19C402B16E795BB00C7D1AF /* MainStoryboard_iPhone.storyboard */; };
 		B19C403016E795BB00C7D1AF /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B19C402E16E795BB00C7D1AF /* MainStoryboard_iPad.storyboard */; };
-		B19C403316E795BB00C7D1AF /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B19C403216E795BB00C7D1AF /* FirstViewController.m */; };
-		B19C403516E795BB00C7D1AF /* first.png in Resources */ = {isa = PBXBuildFile; fileRef = B19C403416E795BB00C7D1AF /* first.png */; };
-		B19C403716E795BB00C7D1AF /* first@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B19C403616E795BB00C7D1AF /* first@2x.png */; };
-		B19C403A16E795BB00C7D1AF /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B19C403916E795BB00C7D1AF /* SecondViewController.m */; };
-		B19C403C16E795BB00C7D1AF /* second.png in Resources */ = {isa = PBXBuildFile; fileRef = B19C403B16E795BB00C7D1AF /* second.png */; };
-		B19C403E16E795BB00C7D1AF /* second@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B19C403D16E795BB00C7D1AF /* second@2x.png */; };
+		B19C403316E795BB00C7D1AF /* BalanceVC.m in Sources */ = {isa = PBXBuildFile; fileRef = B19C403216E795BB00C7D1AF /* BalanceVC.m */; };
+		B19C404816E8818000C7D1AF /* NewFlowVC.m in Sources */ = {isa = PBXBuildFile; fileRef = B19C404716E8818000C7D1AF /* NewFlowVC.m */; };
+		B19C404D16E8C49200C7D1AF /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B19C404C16E8C49200C7D1AF /* MapKit.framework */; };
+		B19C408C16EA062600C7D1AF /* DataSystem.m in Sources */ = {isa = PBXBuildFile; fileRef = B19C408B16EA062600C7D1AF /* DataSystem.m */; };
+		B19C409016EA0DC100C7D1AF /* SourceTableVC.m in Sources */ = {isa = PBXBuildFile; fileRef = B19C408F16EA0DC100C7D1AF /* SourceTableVC.m */; };
+		B19C42ED16EA2FF000C7D1AF /* NewSourceVC.m in Sources */ = {isa = PBXBuildFile; fileRef = B19C42EC16EA2FF000C7D1AF /* NewSourceVC.m */; };
+		B19C42EF16EA3C4B00C7D1AF /* iconbeast in Resources */ = {isa = PBXBuildFile; fileRef = B19C42EE16EA3C4B00C7D1AF /* iconbeast */; };
+		B19C42F116EB31C000C7D1AF /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B19C42F016EB31C000C7D1AF /* CoreLocation.framework */; };
+		B19C42F416EB5E2700C7D1AF /* FlowCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B19C42F316EB5E2700C7D1AF /* FlowCell.m */; };
+		B19C42F916EB62BB00C7D1AF /* FlowTableVC.m in Sources */ = {isa = PBXBuildFile; fileRef = B19C42F816EB62BB00C7D1AF /* FlowTableVC.m */; };
+		B19C430016EC735100C7D1AF /* EmbededCalculatorVC.m in Sources */ = {isa = PBXBuildFile; fileRef = B19C42FB16EC735000C7D1AF /* EmbededCalculatorVC.m */; };
+		B19C430216EC735100C7D1AF /* RPNCalculatorBrain.m in Sources */ = {isa = PBXBuildFile; fileRef = B19C42FF16EC735000C7D1AF /* RPNCalculatorBrain.m */; };
+		B19C430516EC7B7200C7D1AF /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B19C430416EC7B7100C7D1AF /* AudioToolbox.framework */; };
+		B19C430716ECA97000C7D1AF /* parismazda.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B19C430616ECA97000C7D1AF /* parismazda.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B111D85016EDCCD600E4655C /* CapturePhotoVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CapturePhotoVC.h; sourceTree = "<group>"; };
+		B111D85116EDCCD600E4655C /* CapturePhotoVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CapturePhotoVC.m; sourceTree = "<group>"; };
 		B19C401016E795BB00C7D1AF /* HW4_ProjProto.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HW4_ProjProto.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B19C401316E795BB00C7D1AF /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		B19C401516E795BB00C7D1AF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -42,14 +53,29 @@
 		B19C402916E795BB00C7D1AF /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		B19C402C16E795BB00C7D1AF /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
 		B19C402F16E795BB00C7D1AF /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
-		B19C403116E795BB00C7D1AF /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
-		B19C403216E795BB00C7D1AF /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
-		B19C403416E795BB00C7D1AF /* first.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = first.png; sourceTree = "<group>"; };
-		B19C403616E795BB00C7D1AF /* first@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "first@2x.png"; sourceTree = "<group>"; };
-		B19C403816E795BB00C7D1AF /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
-		B19C403916E795BB00C7D1AF /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
-		B19C403B16E795BB00C7D1AF /* second.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = second.png; sourceTree = "<group>"; };
-		B19C403D16E795BB00C7D1AF /* second@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "second@2x.png"; sourceTree = "<group>"; };
+		B19C403116E795BB00C7D1AF /* BalanceVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BalanceVC.h; sourceTree = "<group>"; };
+		B19C403216E795BB00C7D1AF /* BalanceVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BalanceVC.m; sourceTree = "<group>"; };
+		B19C404616E8817F00C7D1AF /* NewFlowVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewFlowVC.h; sourceTree = "<group>"; };
+		B19C404716E8818000C7D1AF /* NewFlowVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewFlowVC.m; sourceTree = "<group>"; };
+		B19C404C16E8C49200C7D1AF /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		B19C408A16EA062600C7D1AF /* DataSystem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataSystem.h; sourceTree = "<group>"; };
+		B19C408B16EA062600C7D1AF /* DataSystem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataSystem.m; sourceTree = "<group>"; };
+		B19C408E16EA0DC100C7D1AF /* SourceTableVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SourceTableVC.h; sourceTree = "<group>"; };
+		B19C408F16EA0DC100C7D1AF /* SourceTableVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SourceTableVC.m; sourceTree = "<group>"; };
+		B19C42EB16EA2FF000C7D1AF /* NewSourceVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewSourceVC.h; sourceTree = "<group>"; };
+		B19C42EC16EA2FF000C7D1AF /* NewSourceVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewSourceVC.m; sourceTree = "<group>"; };
+		B19C42EE16EA3C4B00C7D1AF /* iconbeast */ = {isa = PBXFileReference; lastKnownFileType = folder; name = iconbeast; path = HW4_ProjProto/iconbeast; sourceTree = "<group>"; };
+		B19C42F016EB31C000C7D1AF /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		B19C42F216EB5E2700C7D1AF /* FlowCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlowCell.h; sourceTree = "<group>"; };
+		B19C42F316EB5E2700C7D1AF /* FlowCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FlowCell.m; sourceTree = "<group>"; };
+		B19C42F716EB62BB00C7D1AF /* FlowTableVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlowTableVC.h; sourceTree = "<group>"; };
+		B19C42F816EB62BB00C7D1AF /* FlowTableVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FlowTableVC.m; sourceTree = "<group>"; };
+		B19C42FA16EC735000C7D1AF /* EmbededCalculatorVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EmbededCalculatorVC.h; sourceTree = "<group>"; };
+		B19C42FB16EC735000C7D1AF /* EmbededCalculatorVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EmbededCalculatorVC.m; sourceTree = "<group>"; };
+		B19C42FE16EC735000C7D1AF /* RPNCalculatorBrain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RPNCalculatorBrain.h; sourceTree = "<group>"; };
+		B19C42FF16EC735000C7D1AF /* RPNCalculatorBrain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RPNCalculatorBrain.m; sourceTree = "<group>"; };
+		B19C430416EC7B7100C7D1AF /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		B19C430616ECA97000C7D1AF /* parismazda.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = parismazda.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +83,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B19C430516EC7B7200C7D1AF /* AudioToolbox.framework in Frameworks */,
+				B19C42F116EB31C000C7D1AF /* CoreLocation.framework in Frameworks */,
+				B19C404D16E8C49200C7D1AF /* MapKit.framework in Frameworks */,
 				B19C401416E795BB00C7D1AF /* UIKit.framework in Frameworks */,
 				B19C401616E795BB00C7D1AF /* Foundation.framework in Frameworks */,
 				B19C401816E795BB00C7D1AF /* CoreGraphics.framework in Frameworks */,
@@ -69,6 +98,7 @@
 		B19C400716E795BB00C7D1AF = {
 			isa = PBXGroup;
 			children = (
+				B19C42EA16EA28FC00C7D1AF /* Resources */,
 				B19C401916E795BB00C7D1AF /* HW4_ProjProto */,
 				B19C401216E795BB00C7D1AF /* Frameworks */,
 				B19C401116E795BB00C7D1AF /* Products */,
@@ -86,6 +116,9 @@
 		B19C401216E795BB00C7D1AF /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				B19C430416EC7B7100C7D1AF /* AudioToolbox.framework */,
+				B19C42F016EB31C000C7D1AF /* CoreLocation.framework */,
+				B19C404C16E8C49200C7D1AF /* MapKit.framework */,
 				B19C401316E795BB00C7D1AF /* UIKit.framework */,
 				B19C401516E795BB00C7D1AF /* Foundation.framework */,
 				B19C401716E795BB00C7D1AF /* CoreGraphics.framework */,
@@ -100,15 +133,15 @@
 				B19C402316E795BB00C7D1AF /* AppDelegate.m */,
 				B19C402B16E795BB00C7D1AF /* MainStoryboard_iPhone.storyboard */,
 				B19C402E16E795BB00C7D1AF /* MainStoryboard_iPad.storyboard */,
-				B19C403116E795BB00C7D1AF /* FirstViewController.h */,
-				B19C403216E795BB00C7D1AF /* FirstViewController.m */,
-				B19C403416E795BB00C7D1AF /* first.png */,
-				B19C403616E795BB00C7D1AF /* first@2x.png */,
-				B19C403816E795BB00C7D1AF /* SecondViewController.h */,
-				B19C403916E795BB00C7D1AF /* SecondViewController.m */,
-				B19C403B16E795BB00C7D1AF /* second.png */,
-				B19C403D16E795BB00C7D1AF /* second@2x.png */,
+				B19C42F616EB628300C7D1AF /* Balance */,
+				B19C42F516EB627700C7D1AF /* Source Table */,
+				B19C42F216EB5E2700C7D1AF /* FlowCell.h */,
+				B19C42F316EB5E2700C7D1AF /* FlowCell.m */,
+				B19C42F716EB62BB00C7D1AF /* FlowTableVC.h */,
+				B19C42F816EB62BB00C7D1AF /* FlowTableVC.m */,
+				B19C408D16EA0C1500C7D1AF /* Brain */,
 				B19C401A16E795BB00C7D1AF /* Supporting Files */,
+				B19C404B16E8C42000C7D1AF /* Sample Photo */,
 			);
 			path = HW4_ProjProto;
 			sourceTree = "<group>";
@@ -125,6 +158,67 @@
 				B19C402916E795BB00C7D1AF /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B19C404B16E8C42000C7D1AF /* Sample Photo */ = {
+			isa = PBXGroup;
+			children = (
+				B19C430616ECA97000C7D1AF /* parismazda.jpg */,
+			);
+			name = "Sample Photo";
+			sourceTree = "<group>";
+		};
+		B19C408D16EA0C1500C7D1AF /* Brain */ = {
+			isa = PBXGroup;
+			children = (
+				B19C408A16EA062600C7D1AF /* DataSystem.h */,
+				B19C408B16EA062600C7D1AF /* DataSystem.m */,
+			);
+			name = Brain;
+			sourceTree = "<group>";
+		};
+		B19C42EA16EA28FC00C7D1AF /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				B19C42EE16EA3C4B00C7D1AF /* iconbeast */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		B19C42F516EB627700C7D1AF /* Source Table */ = {
+			isa = PBXGroup;
+			children = (
+				B19C408E16EA0DC100C7D1AF /* SourceTableVC.h */,
+				B19C408F16EA0DC100C7D1AF /* SourceTableVC.m */,
+				B19C42EB16EA2FF000C7D1AF /* NewSourceVC.h */,
+				B19C42EC16EA2FF000C7D1AF /* NewSourceVC.m */,
+			);
+			name = "Source Table";
+			sourceTree = "<group>";
+		};
+		B19C42F616EB628300C7D1AF /* Balance */ = {
+			isa = PBXGroup;
+			children = (
+				B19C403116E795BB00C7D1AF /* BalanceVC.h */,
+				B19C403216E795BB00C7D1AF /* BalanceVC.m */,
+				B19C404616E8817F00C7D1AF /* NewFlowVC.h */,
+				B19C404716E8818000C7D1AF /* NewFlowVC.m */,
+				B111D85016EDCCD600E4655C /* CapturePhotoVC.h */,
+				B111D85116EDCCD600E4655C /* CapturePhotoVC.m */,
+				B19C430316EC735700C7D1AF /* Calculator */,
+			);
+			name = Balance;
+			sourceTree = "<group>";
+		};
+		B19C430316EC735700C7D1AF /* Calculator */ = {
+			isa = PBXGroup;
+			children = (
+				B19C42FA16EC735000C7D1AF /* EmbededCalculatorVC.h */,
+				B19C42FB16EC735000C7D1AF /* EmbededCalculatorVC.m */,
+				B19C42FE16EC735000C7D1AF /* RPNCalculatorBrain.h */,
+				B19C42FF16EC735000C7D1AF /* RPNCalculatorBrain.m */,
+			);
+			name = Calculator;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -184,10 +278,8 @@
 				B19C402A16E795BB00C7D1AF /* Default-568h@2x.png in Resources */,
 				B19C402D16E795BB00C7D1AF /* MainStoryboard_iPhone.storyboard in Resources */,
 				B19C403016E795BB00C7D1AF /* MainStoryboard_iPad.storyboard in Resources */,
-				B19C403516E795BB00C7D1AF /* first.png in Resources */,
-				B19C403716E795BB00C7D1AF /* first@2x.png in Resources */,
-				B19C403C16E795BB00C7D1AF /* second.png in Resources */,
-				B19C403E16E795BB00C7D1AF /* second@2x.png in Resources */,
+				B19C42EF16EA3C4B00C7D1AF /* iconbeast in Resources */,
+				B19C430716ECA97000C7D1AF /* parismazda.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -200,8 +292,16 @@
 			files = (
 				B19C402016E795BB00C7D1AF /* main.m in Sources */,
 				B19C402416E795BB00C7D1AF /* AppDelegate.m in Sources */,
-				B19C403316E795BB00C7D1AF /* FirstViewController.m in Sources */,
-				B19C403A16E795BB00C7D1AF /* SecondViewController.m in Sources */,
+				B19C403316E795BB00C7D1AF /* BalanceVC.m in Sources */,
+				B19C404816E8818000C7D1AF /* NewFlowVC.m in Sources */,
+				B19C408C16EA062600C7D1AF /* DataSystem.m in Sources */,
+				B19C409016EA0DC100C7D1AF /* SourceTableVC.m in Sources */,
+				B19C42ED16EA2FF000C7D1AF /* NewSourceVC.m in Sources */,
+				B19C42F416EB5E2700C7D1AF /* FlowCell.m in Sources */,
+				B19C42F916EB62BB00C7D1AF /* FlowTableVC.m in Sources */,
+				B19C430016EC735100C7D1AF /* EmbededCalculatorVC.m in Sources */,
+				B19C430216EC735100C7D1AF /* RPNCalculatorBrain.m in Sources */,
+				B111D85216EDCCD600E4655C /* CapturePhotoVC.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -334,6 +434,7 @@
 				B19C404316E795BB00C7D1AF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

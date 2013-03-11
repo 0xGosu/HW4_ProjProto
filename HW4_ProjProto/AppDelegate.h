@@ -7,9 +7,14 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "DataSystem.h"
 
 @interface AppDelegate : UIResponder <UIApplicationDelegate>
 
 @property (strong, nonatomic) UIWindow *window;
+
+@property(strong,nonatomic) DataSystem * dataSystem;
+
+
 
 @end
